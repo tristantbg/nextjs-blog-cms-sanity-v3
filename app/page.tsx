@@ -9,6 +9,3 @@ export default async function IndexRoute() {
 
   return <IndexPage posts={posts} settings={settings} />
 }
-
-// FIXME: remove the `revalidate` export below once you've followed the instructions in `/pages/api/revalidate.ts`
-export const revalidate = 1

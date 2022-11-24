@@ -36,6 +36,3 @@ export default async function SlugRoute({
   const data = getPostAndMoreStories(params.slug)
   return <PostPage data={await data} settings={await settings} />
 }
-
-// FIXME: remove the `revalidate` export below once you've followed the instructions in `/pages/api/revalidate.ts`
-export const revalidate = 1
