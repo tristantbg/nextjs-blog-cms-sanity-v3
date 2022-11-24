@@ -27,3 +27,5 @@ export default async function PreviewIndexRoute() {
     </PreviewSuspense>
   )
 }
+
+export const dynamic = 'force-dynamic'

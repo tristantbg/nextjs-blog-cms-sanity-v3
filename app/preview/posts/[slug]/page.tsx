@@ -34,3 +34,5 @@ export default async function SlugRoute({
     </PreviewSuspense>
   )
 }
+
+export const dynamic = 'force-dynamic'
